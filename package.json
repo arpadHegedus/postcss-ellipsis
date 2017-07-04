@@ -1,0 +1,36 @@
+{
+  "name": "postcss-ellipsis",
+  "version": "1.0.0",
+  "description": "A postcss plugin to add automatically add overflow: hidden and white-space: nowrap when text-overflow: ellipsis is declared",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arpadHegedus/postcss-ellipsis.git"
+  },
+  "keywords": [
+    "postcss",
+    "clearfix",
+    "plugin"
+  ],
+  "author": {
+    "name": "Arpad Hegedus",
+    "email": "hegedus.arpad@gmail.com",
+    "web": "http://arpadhegedus.com"
+  },
+  "maintainers": [
+    {
+      "name": "Arpad Hegedus",
+      "email": "hegedus.arpad@gmail.com",
+      "web": "http://arpadhegedus.com"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arpadHegedus/postcss-ellipsis/issues"
+  },
+  "homepage": "https://github.com/arpadHegedus/postcss-ellipsis#readme",
+  "dependencies": {
+    "postcss":"^6.0.5",
+    "postcss-plugin-utilities":"^2.0.0"
+  }
+}
